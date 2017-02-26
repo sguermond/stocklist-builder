@@ -1,3 +1,6 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Species, Common
+
+admin.site.register(Species)
+admin.site.register(Common)
